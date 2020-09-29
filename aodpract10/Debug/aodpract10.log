@@ -1,0 +1,3 @@
+﻿  aodpract10.cpp
+D:\domashka\equation\aodpract10\aodpract10.cpp(166,1): warning C4244:  +=: преобразование "double" в "float", возможна потеря данных
+  aodpract10.vcxproj -> D:\domashka\equation\aodpract10\Debug\aodpract10.exe
