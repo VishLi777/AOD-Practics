@@ -19,7 +19,7 @@ public:
 	rbTree() : root(nullptr) {}
 
 	node* GetRoot() { return root; }
-	//Добавление элмента в дерево
+	//Добавление элемента в дерево
 	void InsertNode(double stuff) {
 		if (root == nullptr) {
 			root = new node();
@@ -159,6 +159,7 @@ public:
 		cout << "--> " << temp->data << "<" << temp->color << ">";
 		SymmetricOrder(temp->right);
 	}
+	/*
 	//Нахождение суммы
 	void Summa(node* temp) {
 		if (!temp) { return; }
@@ -166,7 +167,7 @@ public:
 		sum += temp->data;
 		Summa(temp->right);
 	}
-
+	
 	//Получение суммы
 	double getSum() {
 		return sum;
@@ -176,6 +177,7 @@ public:
 	{
 		return sizenode;
 	}
+	
 	//Средние арифметическое узлов
 	double getSr()
 	{
@@ -184,6 +186,7 @@ public:
 		double sr = summa / node;
 		return sr;
 	}
+	*/
 };
 
 void menu() {
@@ -222,7 +225,7 @@ int main() {
 			cout << endl;
 			break;
 
-		case 4: cout << "Сумма значений листьев - ";
+		/*case 4: cout << "Сумма значений листьев - ";
 			demo.Summa(demo.GetRoot());
 			cout << demo.getSum() << endl;
 			break;
@@ -230,6 +233,7 @@ int main() {
 		case 5: cout << "Среднее арифметическое всех узлов - ";
 			cout << demo.getSr();
 			break;
+		*/	
 		default: cout << "Ошибка! Выберите значение от 1 до 6.\n";
 		}
 		cout << "\nВаш выбор?";
