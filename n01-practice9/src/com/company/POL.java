@@ -81,11 +81,12 @@ Stack включает все методы, определённые Vector, и 
             outString.add(stack.pop());
 
         }
-        System.out.println((char) 27 + "[36mОБРАТНАЯ ПОЛЬСКАЯ ЗАПИСЬ(ПОЛИЗ): " + (char)27 + "[0m");
+        /*System.out.println((char) 27 + "[36m: " + (char)27 + "[0m");
 
         for(String n:outString){
             System.out.print(n+" ");
         }
+        */
         System.out.println();
         for(int i = 0; i<outString.size();i++){
             if(isNumber(outString.get(i))){
