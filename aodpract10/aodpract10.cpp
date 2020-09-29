@@ -1,4 +1,6 @@
-﻿#include <iostream>
+//Красно-чёрное дерево с балансировкой. 
+
+#include <iostream>
 using namespace std;
 struct node {
 
