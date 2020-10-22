@@ -1,0 +1,3 @@
+﻿  funcc.cpp
+D:\domashka\equation\n04-practice12\funcc.cpp(84,20): warning C4554:  "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+  n04-practice12.vcxproj -> D:\domashka\equation\n04-practice12\Debug\n04-practice12.exe
