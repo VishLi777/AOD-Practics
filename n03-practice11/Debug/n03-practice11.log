@@ -1,0 +1,3 @@
+﻿  n03-practice11.cpp
+D:\domashka\equation\n03-practice11\n03-practice11\n03-practice11.cpp(65): warning C4715:  Hash::FindItem: значение возвращается не при всех путях выполнения
+  n03-practice11.vcxproj -> D:\domashka\equation\n03-practice11\n03-practice11\Debug\n03-practice11.exe
